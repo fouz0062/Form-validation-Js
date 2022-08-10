@@ -33,6 +33,7 @@ body {
   border-radius: 50px 7px 50px 7px;
   box-shadow: -5px -8px 0px 6px #7daed3, inset 10px 7px 0px 0px #90c9f4,
     inset 18px 15px 0px 0px #bce0fc;
+    position: relative;
 }
 
 .title {
@@ -84,7 +85,7 @@ button {
   box-shadow: -7px -6px 0px #9c9c9cc4;
   border: none;
   outline: none;
-  left: 40%;
+  left: 10%;
   bottom: -2.5%;
   cursor: pointer;
 }
@@ -95,6 +96,7 @@ button {
     }
   .container > div {
     width: 80%;
+    margin: 5rem auto;
    
   }
   .title {
@@ -108,8 +110,7 @@ button {
     padding: 0.5rem;
   }
   button {
-    bottom:3%;
-    left: 21%;
+ 
     font-size: 1rem;
   }
   form>div:last-child{
