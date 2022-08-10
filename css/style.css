@@ -92,7 +92,7 @@ button {
 
 @media screen and (max-width: 600px) {
     .container{
-        height: 100vh;
+        height: 120vh;
     }
   .container > div {
     width: 80%;
