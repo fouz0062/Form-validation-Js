@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to top,
+    #030a13 0%,
+    #324757 50%,
+    #4b6a82 100%
+  );
+}
+/* .err {
+    display: block;
+    width:80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #7daed3;
+    padding: 0.5rem 0;
+} */
+.container {
+  height: 100%;
+  position: relative;
+}
+.container > div {
+  width: 28%;
+  margin: 2rem auto;
+  background-color: #eeeeef;
+  border-radius: 50px 7px 50px 7px;
+  box-shadow: -5px -8px 0px 6px #7daed3, inset 10px 7px 0px 0px #90c9f4,
+    inset 18px 15px 0px 0px #bce0fc;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  color: #7f8c8d;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+form div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.1rem 1rem;
+}
+form div > div {
+  font-size: 1.3rem;
+  margin: 5px 3px;
+}
+form>div:last-child {
+  padding-bottom: 2rem;
+}
+form input {
+  padding: 0.8rem;
+  margin: 5px 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #7f8c8d;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.radio {
+  padding: 1rem 0;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
+button {
+  position: absolute;
+  background-color: #507492;
+  color: #fff;
+  text-shadow: 1px 1px 0px #2d7baf;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: -7px -6px 0px #9c9c9cc4;
+  border: none;
+  outline: none;
+  left: 40%;
+  bottom: -2.5%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        height: 100vh;
+    }
+  .container > div {
+    width: 80%;
+   
+  }
+  .title {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  form div > div {
+    font-size: 1rem;
+  }
+  form input {
+    padding: 0.5rem;
+  }
+  button {
+    bottom:7%;
+    left: 21%;
+    font-size: 1rem;
+  }
+  form>div:last-child{
+    padding-bottom: 1rem;
+  }
+}
