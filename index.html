@@ -15,16 +15,18 @@
         <h3 class="title">Registration info</h3>
         <form method="post" enctype="multipart/form-data">
           <div>
-            
+            <div class="err" id="fnameError"></div>
             <div><label for="fName">First Name</label></div>
             <input type="text" id="fName" placeholder="Enter First Name" />
             
           </div>
           <div>
+              <div class="err" id="lnameError"></div>
             <div><label for="lName">Last Name</label></div>
             <input type="text" id="lName" placeholder="Enter Last Name" />
           </div>
           <div>
+              <div class="err" id="genderError"></div>
             <div><label for="gender">Gender</label></div>
             <span class="radio">
               <input type="radio" name="gender"/>
@@ -35,6 +37,7 @@
           </div>
           <div>
             <div>
+                <div class="err" id="bdayError"></div>
               <label for="dob" >Birthday</label>
               
             </div>
@@ -43,12 +46,14 @@
           </div>
           <div>
             <div>
+                <div class="err" id="emailError"></div>
               <label for="email">Email Address</label>
             </div>
             <input type="email" id="email" placeholder="abc@mail.com" />
           </div>
           <div>
             <div>
+                <div class="err" id="pwordError"></div>
               <label for="password">Password</label>
             </div>
             <input
@@ -60,6 +65,7 @@
           </div>
           <div>
             <div>
+                <div class="err" id="confirmError"></div>
               <label for="CPassword">Confirm password</label>
             </div>
             <input
@@ -69,6 +75,7 @@
             />
           </div>
           <div>
+              <div class="err" id="avatarError"></div>
             <div><label for="avatar">Avatar</label></div>
             <input
               type="file"
